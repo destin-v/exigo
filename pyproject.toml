@@ -1,0 +1,69 @@
+# Example configuration for Black.
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+
+[tool.black]
+line-length = 100
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.idea
+  | \.mypy_cache
+  | \.pytest_cache
+  | \.tox
+  | \.venv
+  | \.vscode
+  | \.nox
+  | \docs
+  | _build
+  | buck-out
+  | build
+  | dist
+  # The following are specific to Black, you probably don't want those.
+  | blib2to3
+  | tests/data
+  | profiling
+)/
+'''
+
+[tool.poetry]
+name = "exigo"
+version = "0.1.0"
+description = ""
+authors = ["W. Li <william.li1@me.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+matplotlib = "*"
+numpy = "*"
+rich = "^13.7.0"
+scikit-learn = "*"
+torch = "2.1.2"
+tensorflow = "2.14.0"
+tensorboard = "*"
+tqdm = "*"
+torchvision = "^0.16.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+coverage = "*"
+mypy = "*"
+nox = "*"
+pandas = "*"
+pdoc = "*"
+pre-commit = "*"
+pytest = "*"
+scalene = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
