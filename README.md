@@ -1,8 +1,7 @@
 <figure>
     <p align="center">
-    <img src="docs/pics/logo.gif" alt="drawing" width="600"/>
+    <img src="https://drive.google.com/uc?export=view&id=1yFte-RASCcF1ahkYg1Jybavi-gWje8kp" alt="drawing" width="600"/>
     </p>
-  <figcaption align = "center"></figcaption>
 </figure>
 
 # 📒 Description
@@ -10,7 +9,6 @@
     <p align="center">
     <img src="docs/pics/program_logo.png" alt="drawing" width="250"/>
     </p>
-  <figcaption align = "center"></figcaption>
 </figure>
 
 Neural networks are difficult to understand because of their ***'black box'*** nature.  Here we will describe various different ways a researcher can interrogate their neural networks to describe what is happening.  This repo contains a pipeline for extracting information from an MNIST dataset.  However, the MNIST pipeline can be replaced with your preferred dataloaders.
@@ -57,15 +55,21 @@ Confusion matricies are designed to show how well a models' predictions performe
     <p align="center">
     <img src="docs/pics/confusion_matrix_0.png" alt="drawing" width="700"/>
     </p>
-  <figcaption align = "center"><b>Figure 1: Confusion matrix at epoch=0</b></figcaption>
 </figure>
+
+<p align="center">
+<b>Figure 1: Confusion matrix at epoch=0</b>
+</p>
 
 <figure>
     <p align="center">
     <img src="docs/pics/confusion_matrix_1.png" alt="drawing" width="700"/>
     </p>
-  <figcaption align = "center"><b>Figure 2: Confusion matrix at epoch=1</b></figcaption>
 </figure>
+
+<p align="center">
+<b>Figure 2: Confusion matrix at epoch=1</b>
+</p>
 
 # 🗺️ Saliency Maps
 Saliency maps help a designer understand what parts of a an input space contributed toward the decision making process.  In order to build a saliency you need to find the backpropagation gradients with respect to:
@@ -93,22 +97,29 @@ The following images are generated:
     <p align="center">
     <img src="docs/pics/saliency_0.png" alt="drawing" width="700"/>
     </p>
-  <figcaption align = "center"><b>Figure 3: Saliency map before training. Epoch=0.</b></figcaption>
 </figure>
+
+<p align="center">
+<b>Figure 3: Saliency map before training. Epoch=0.</b>
+</p>
 
 <figure>
     <p align="center">
     <img src="docs/pics/saliency_1.png" alt="drawing" width="700"/>
     </p>
-  <figcaption align = "center"><b>Figure 4: Saliency map after 2 epoch of training.</b></figcaption>
 </figure>
+
+<p align="center">
+<b>Figure 4: Saliency map after 2 epoch of training.</b>
+</p>
 
 <figure>
     <p align="center">
     <img src="docs/pics/colormap.png" alt="drawing" width="700"/>
     </p>
-  <figcaption align = "center"></figcaption>
 </figure>
+
+
 
 # 📽️ Projection Embeddings
 
@@ -139,8 +150,11 @@ Under the `projector` tab you will find the visualization tools.  You must use t
     <p align="center">
     <img src="docs/pics/tsne.gif" alt="drawing" width="800"/>
     </p>
-  <figcaption align = "center"><b>Figure 5:  t-SNE of embeddings.</b></figcaption>
 </figure>
+
+<p align="center">
+<b>Figure 5:  t-SNE of embeddings.</b>
+</p>
 
 # 🧭 Website Documentation
 
