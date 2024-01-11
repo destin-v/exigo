@@ -62,6 +62,7 @@ pandas = "*"
 pdoc = "*"
 pre-commit = "*"
 pytest = "*"
+pytest-cov = "*"
 scalene = "*"
 
 [build-system]

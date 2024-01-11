@@ -1,15 +1,25 @@
-<figure>
-    <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1yFte-RASCcF1ahkYg1Jybavi-gWje8kp" alt="drawing" width="600"/>
-    </p>
-</figure>
+<p align="center">
+  <a href="https://github.com/destin-v">
+    <img src="https://drive.google.com/uc?export=view&id=1yFte-RASCcF1ahkYg1Jybavi-gWje8kp" alt="drawing" width="500"/>
+  </a>
+</p>
 
 # 📒 Description
-<figure>
-    <p align="center">
-    <img src="docs/pics/program_logo.png" alt="drawing" width="250"/>
-    </p>
-</figure>
+<p align="center">
+  <img src="docs/pics/program_logo.png" alt="drawing" width="150"/>
+</p>
+
+<p align="center">
+  <a href="https://devguide.python.org/versions/">              <img alt="" src="https://img.shields.io/badge/python-^3.10-blue?logo=python&logoColor=white"></a>
+  <a href="https://docs.github.com/en/actions/quickstart">      <img alt="" src="https://img.shields.io/badge/CI-github-blue?logo=github&logoColor=white"></a>
+  <a href="https://black.readthedocs.io/en/stable/index.html">  <img alt="" src="https://img.shields.io/badge/code%20style-black-blue"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/destin-v/exigo/actions/workflows/pre-commit.yml">  <img alt="pre-commit" src="https://github.com/destin-v/exigo/actions/workflows/pre-commit.yml/badge.svg"></a>
+  <a href="https://destin-v.github.io/exigo/src.html">                           <img alt="pdoc" src="https://github.com/destin-v/exigo/actions/workflows/pdoc.yml/badge.svg"></a>
+  <a href="https://github.com/destin-v/exigo/actions/workflows/pytest.yml">      <img alt="pytest" src="https://github.com/destin-v/exigo/actions/workflows/pytest.yml/badge.svg"></a>
+</p>
 
 Neural networks are difficult to understand because of their ***'black box'*** nature.  Here we will describe various different ways a researcher can interrogate their neural networks to describe what is happening.  This repo contains a pipeline for extracting information from an MNIST dataset.  However, the MNIST pipeline can be replaced with your preferred dataloaders.
 
