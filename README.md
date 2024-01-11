@@ -6,7 +6,7 @@
 
 # 📒 Description
 <p align="center">
-  <img src="docs/pics/program_logo.png" alt="drawing" width="150"/>
+  <img src="docs/pics/program_logo.png" alt="drawing" width="250"/>
 </p>
 
 <p align="center">
